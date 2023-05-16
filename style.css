@@ -10,16 +10,16 @@ body{
   background-color: #E38470;
   color: dark-grey;
   text-align: center;
-  Padding; 40px;
+  Padding: 40px;
 }
-.topnav{
+.topnav {
   background-color: #E38470;
   overflow: hidden;
   height: 50px;
   text-align: center;
   
 }
-a{
+a {
   float: Right;
   color: dark-grey;
   text-align: center;
@@ -33,7 +33,7 @@ a.hover{
   color: Blue;
 }
 /* Add a color to the active/current link*/
-.topnava.active{
+.topnava.active {
   background-color: #04AA6D;
   color: white;
 }
@@ -42,7 +42,8 @@ a.hover{
   display: flex;
   flex-flow: row wrap;
   Margin: auto auto 60px auto;
-  Maxwidth: 1000px;
+  max-width: 1000px;
+  justify-content: center;
 }
 
 .flex-container>div{
@@ -53,7 +54,6 @@ a.hover{
   line-height: 75px;
   font-size: 30px;
 }
-
 /*My UX skills section coded using CSS grid*/
 .grid-container{
   Display: grid;
