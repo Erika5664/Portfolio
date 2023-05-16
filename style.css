@@ -55,9 +55,9 @@ a.hover{
   font-size: 30px;
 }
 /*My UX skills section coded using CSS grid*/
-.grid-container{
+.grid-container {
   Display: grid;
-  grid-template: colums: auto auto auto auto;
+  grid-template: auto auto auto auto;
   background-color: #E38470;
   padding: 10px;
 }
